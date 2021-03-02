@@ -1,0 +1,37 @@
+{
+    "name":"soapbox",
+    "version":"1.0.0",
+    "author":"You",
+    "location":"",
+    "slug":"soapbox",
+    "createPackageDirectory":false,
+    "type":"mvc",
+    "keywords":"",
+    "homepage":"",
+    "documentation":"",
+    "repository":{
+        "type":"",
+        "url":""
+    },
+    "bugs":"",
+    "shortDescription":"",
+    "contributors":[],
+    "ignore":[],
+    "devDependencies":{
+        "testbox":"^4.2.1+400",
+        "commandbox-dotenv":"*",
+        "commandbox-cfconfig":"*",
+        "commandbox-cfformat":"*"
+    },
+    "installPaths":{
+        "coldbox":"coldbox/",
+        "testbox":"testbox/"
+    },
+    "dependencies":{
+        "coldbox":"^6.2.2+1396"
+    },
+    "scripts":{},
+    "testbox":{
+        "runner":"http://localhost:8080/tests/runner.cfm"
+    }
+}
