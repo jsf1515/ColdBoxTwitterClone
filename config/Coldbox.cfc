@@ -15,7 +15,7 @@ component {
 		 */
 		coldbox = {
 			// Application Setup
-			appName                  : getSystemSetting( "APPNAME", "Your app name here" ),
+			appName                  : getSystemSetting( "APPNAME", "SoapBox" ),
 			eventName                : "event",
 			// Development Settings
 			reinitPassword           : "",
@@ -173,7 +173,12 @@ component {
 	 */
 	function development() {
 		// coldbox.customErrorTemplate = "/coldbox/system/exceptions/BugReport.cfm"; // static bug reports
-		coldbox.customErrorTemplate = "/coldbox/system/exceptions/Whoops.cfm"; // interactive bug report
+		coldbox.customErrorTemplate = "/coldbox/system/exceptions/Whoops.cfm";
+		coldbox.handlersIndexAutoreload = true ;
+		coldbox.reinitPassword = "" ;
+		coldbox.handlerCaching = false ;
+		coldbox.viewCaching = false ;
+		coldbox.eventCaching = false ;
 	}
 
 }
