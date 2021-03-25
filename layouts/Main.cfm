@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Welcome to Coldbox!</title>
+		<title>Coldbox Twitter Clone</title>
 
 		<!-- ********************************** -->
 		<!-- ********************************** -->
